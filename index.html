@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | News homepage</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+  <div class="main">
+    <nav class="nav-bar">
+      <div class="nav-logo">
+        <img src="./assets/images/logo.svg" alt="logo" class="logo">
+      </div>
+      <ul class="nav-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">New</a></li>
+        <li><a href="#">Popular</a></li>
+        <li><a href="#">Trending</a></li>
+        <li><a href="#">Categories</a></li>
+      </ul>
+      <div class="navbar-toggle">
+        <img class="toggle" src="./assets/images/icon-menu.svg" alt="dropdown">
+      </div>
+    </nav>
+
+    <div class="nav-menu-dropdown">
+      <div class="drop-close">
+        <img src="./assets/images/icon-menu-close.svg" alt="logo" class="logo">
+      </div>
+      <ul class="nav-menu-drop">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">New</a></li>
+        <li><a href="#">Popular</a></li>
+        <li><a href="#">Trending</a></li>
+        <li><a href="#">Categories</a></li>
+      </ul>
+    </div>
+    <div class="top-cards">
+    <div class="img-txt">
+      <div class="img-part"></div>
+      <div class="text-part">
+        <div class="text-patrt-main">
+          <h1>The Bright Future of Web 3.0?</h1>
+          <div class="btn-part">
+            <p>
+              We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+              But is it really fulfilling its promise?</p>
+              <button class="btn-top" >Read more</button>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <div class="details-card">
+      <h2>New </h2>
+      <div class="details 1"> 
+      <h4>
+        Hydrogen VS Electric Cars</h4>
+        <p>
+          Will hydrogen-fueled cars ever catch up to EVs?</p>
+          <hr>
+      </div>
+      <div class="dettails 2">
+      <h4>
+        The Downsides of AI Artistry0</h4>
+        <p>
+          What are the possible adverse effects of on-demand AI image generation?
+        </p>
+          <hr>
+      </div>
+      <div class="details 3">
+      <h4>
+        Is VC Funding Drying Up?</h4>
+        <p>  Private funding by VC firms is down 50% YOY. We take a look at what that means.
+        </p>
+          
+      </div>
+    </div>
+  </div>
+    <div class="bottom-cards">
+      <div class="small-card card1">
+        <div class="img-card">
+          <img src="./assets/images/image-retro-pcs.jpg" alt="retro-pc">
+        </div>
+        <div class="txt-card">
+          <h4>01</h4>
+         <h5> Reviving Retro PCs</h5>
+         <p>What happens when old PCs are given modern upgrades?</p>
+        </div>
+      </div>
+      <div class="small-card card2">
+        <div class="img-card">
+         <img src="./assets/images/image-top-laptops.jpg" alt="laptop">
+        </div>
+        <div class="txt-card">
+          <h4>02</h4>
+         <h5> Top 10 Laptops of 2022</h5>
+         <p> Our best picks for various needs and budgets.</p>
+        </div>
+      </div>
+      <div class="small-card card3">
+        <div class="img-card">
+          <img src="./assets/images/image-gaming-growth.jpg" alt="gaming">
+        </div>
+        <div class="txt-card">
+        <h4>03</h4>
+         <h5>The Growth of Gaming</h5>
+         <p> 
+          How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </div>
+  
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
